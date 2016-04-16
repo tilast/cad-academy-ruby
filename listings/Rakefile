@@ -1,0 +1,19 @@
+namespace :default_tasks do
+  task :default do
+    puts 'hello world from '
+  end
+
+  task :default2 do
+    puts 'hello world 2'
+  end
+end
+
+task :default do
+  puts 'hello world'
+end
+
+task :default2 do
+  puts 'hello world 2'
+end
+
+task :default2 => %i[default]

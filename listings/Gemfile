@@ -1,0 +1,11 @@
+gem "nokogiri"
+ 
+gem "rack", "~>1.1"
+# "~>1.1" is identical to ">=1.1" and "<1.2"
+ 
+gem "rspec", :require => "spec"
+# If a gem main file is different than the gem name, specify how to require it
+ 
+gem "sinatra"
+# Git repositories are also valid gem sources
+
